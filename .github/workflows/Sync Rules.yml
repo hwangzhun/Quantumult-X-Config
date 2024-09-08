@@ -1,66 +1,51 @@
-# 定义 GitHub Action 的名称，可以任意命名
 name: Sync Rules
 
-# 定义触发工作流的事件
 on:
-  # 定时触发器，使用 cron 表达式。这个例子中设置为每天的 0 点（UTC 时间）执行任务。
   schedule:
-    - cron: '0 0 * * *'  # Cron表达式：分 时 日 月 星期
-  # 手动触发工作流，可以通过 GitHub UI 手动运行
-  workflow_dispatch: 
-  # 当推送到 main 分支时触发
+    - cron: '0 0 * * *'  # 每天 0 点 UTC 运行
+  workflow_dispatch:
   push:
     branches:
-      - master  # 监听 master 分支的变动，其他分支可以按需添加
+      - master  # 监听 master 分支
 
-# 定义工作流中的所有任务
 jobs:
   sync-files:
-    # 指定运行环境，这里使用最新版本的 Ubuntu 操作系统
     runs-on: ubuntu-latest
 
-    # 定义一系列步骤
     steps:
-      # Step 1: 检出（checkout）你自己的仓库代码
+      # Step 1: 检出你的仓库代码
       - name: Checkout your repository
-        # 使用 GitHub 官方的 actions/checkout@v2 动作来克隆当前仓库代码
         uses: actions/checkout@v2
 
       # Step 2: 克隆目标仓库的代码
       - name: Clone the target repository
-        # 运行 shell 脚本来克隆目标仓库，并将所需文件合并到当前仓库中
         run: |
-          # 使用 git clone 命令克隆目标仓库，替换成你想要同步的目标仓库 URL
-          git clone https://github.com/blackmatrix7/ios_rule_script
-          
-          # 进入目标仓库的目录
+          git clone https://github.com/blackmatrix7/ios_rule_script target_repo
           cd target_repo
 
-          # 将目标仓库中的文件1内容添加到合并后的文件中，并在文件末尾添加一个换行
-          cat 文件1.txt >> ../merged_rules.txt
-          echo "" >> ../merged_rules.txt  # 用空行隔开不同文件的内容
-
-          # 将文件2的内容添加到合并后的文件中，继续使用换行分隔
-          cat 文件2.txt >> ../merged_rules.txt
+          # 合并目标文件
+          cat rule/QuantumultX/OpenAI/OpenAI.list >> ../merged_rules.txt
+          echo "" >> ../merged_rules.txt
+          cat rule/QuantumultX/OpenAI/Gemini.list >> ../merged_rules.txt
           echo "" >> ../merged_rules.txt
 
-          # 你可以继续添加更多的规则文件
-          # cat 文件3.txt >> ../merged_rules.txt
-          # echo "" >> ../merged_rules.txt
-
-      # Step 3: 提交和推送更改到你的仓库
-      - name: Commit and push changes
-        # 运行 Git 命令配置用户名和邮箱，这里使用 GitHub Action 的身份
+      # Step 3: 将合并后的文件移动到目标路径
+      - name: Move merged rules to the target path
         run: |
-          git config --global user.name 'GitHub Action'  # 设置提交的用户名
-          git config --global user.email 'action@github.com'  # 设置提交的邮箱
-          
-          # 将修改后的文件添加到 git 暂存区
-          git add merged_rules.txt
-          
-          # 提交修改，附上 commit 信息
-          git commit -m "Sync rules from target repository"
-          
-          # 推送更改到远程仓库的 main 分支
-          git push origin main
+          # 将合并后的规则文件移动到 'rule/AI.txt' 目标路径
+          mv ../merged_rules.txt ../rule/AI.txt
 
+      # Step 4: 提交和推送到 master 分支
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+
+          # 添加 'rule/AI.txt' 文件到暂存区
+          git add rule/AI.txt
+          
+          # 提交更改
+          git commit -m "Update AI.txt with rules from target repository"
+          
+          # 推送到 master 分支
+          git push origin master

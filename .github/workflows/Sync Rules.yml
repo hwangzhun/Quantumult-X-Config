@@ -32,8 +32,8 @@ jobs:
       # Step 3: 将合并后的文件移动到目标路径
       - name: Move merged rules to the target path
         run: |
-          # 将合并后的规则文件移动到 'rule/AI.txt' 目标路径
-          mv ../merged_rules.txt ../rule/AI.txt
+          # 将合并后的规则文件移动到 'rule/AII.txt' 目标路径
+          mv ../merged_rules.txt ../rule/AII.txt
 
       # Step 4: 提交和推送到 master 分支
       - name: Commit and push changes
@@ -42,7 +42,7 @@ jobs:
           git config --global user.email 'action@github.com'
 
           # 添加 'rule/AI.txt' 文件到暂存区
-          git add rule/AI.txt
+          git add rule/AII.txt
           
           # 提交更改
           git commit -m "Update AI.txt with rules from target repository"

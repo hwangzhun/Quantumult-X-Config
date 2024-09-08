@@ -28,7 +28,7 @@ jobs:
           # 合并目标文件
           cat rule/QuantumultX/OpenAI/OpenAI.list >> ../merged_rules.txt
           echo "" >> ../merged_rules.txt
-          cat rule/QuantumultX/OpenAI/Gemini.list >> ../merged_rules.txt
+          cat rule/QuantumultX/Gemini/Gemini.list >> ../merged_rules.txt
           echo "" >> ../merged_rules.txt
 
       # Step 3: 将合并后的文件移动到目标路径

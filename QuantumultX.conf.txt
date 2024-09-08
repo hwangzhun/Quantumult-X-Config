@@ -51,8 +51,9 @@ https://whatshub.top/rewrite/vsco.conf, tag=VSCO, update-interval=86400, opt-par
 https://whatshub.top/rewrite/ljtq.conf, tag=莉景天气, update-interval=86400, opt-parser=false, enabled=true
 https://whatshub.top/rewrite/lightroom.conf, tag=Lightroom, update-interval=86400, opt-parser=false, enabled=true
 https://whatshub.top/rewrite/photoshop.conf, tag=Photoshop express, update-interval=86400, opt-parser=false, enabled=true
-https://whatshub.top/rewrite/meituxx.conf, tag=美图秀秀, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Moli-X/Resources/main/Rewrite/MTxiuxiu.conf, tag=美图秀秀, update-interval=86400, opt-parser=false, enabled=true
 https://whatshub.top/rewrite/aqc.conf, tag=爱企查, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/myCamera.js, tag=美颜相机, update-interval=86400, opt-parser=false, enabled=true
 
 # ======= 广告净化 ======= #
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/StartUp.conf, tag=墨鱼去开屏2.0@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
@@ -63,6 +64,7 @@ https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/YoutubeAds.conf, tag=�
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Weibo.conf, tag=微博去广告@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/Amap.conf, tag=高德地图净化[卸载重装]@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
 https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/NeteaseAds.conf, tag=网易云音乐去广告@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ddgksf2013/Rewrite/master/AdBlock/Weibo.conf, tag=微博国际版去广告, update-interval=86400, opt-parser=false, enabled=true
 
 # ======= 网页优化 ======= #
 https://github.com/ddgksf2013/Rewrite/raw/master/Html/Q-Search.conf, tag=Safari超级搜索@ddgksf2013, update-interval=86400, opt-parser=false, enabled=true
@@ -97,13 +99,13 @@ address=/raw.githubusercontent.com/185.199.110.133
 
 [policy]
 
-static=全球加速, 自动选择, direct, 香港节点, 台湾节点, 日本节点, 韩国节点, 新加坡节点, 美国节点, 其他节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
-static=广告拦截, 自动选择, 全球加速, direct, 香港节点, 台湾节点, 韩国节点, 日本节点, 新加坡节点, 美国节点, 其他节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
-static=苹果服务, direct, 香港节点, 台湾节点, 美国节点, 日本节点, 韩国节点, 新加坡节点, 其他节点, proxy, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
-static=Spotify, 美国节点, direct, 台湾节点, 香港节点, 日本节点, 韩国节点, 新加坡节点, 其他节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png
-static=AI 应用, 美国节点, direct, 台湾节点, 香港节点, 日本节点, 韩国节点, 新加坡节点, 其他节点, proxy, img-url=https://raw.githubusercontent.com/hwangzhun/Quantumult-X-Config/master/icon/AI.png
-static=国际媒体, 台湾节点, direct, 香港节点, 日本节点, 美国节点, 韩国节点, 新加坡节点, 其他节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png
-static=漏网之鱼, 自动选择, 全球加速, direct, 香港节点, 台湾节点, 韩国节点, 日本节点, 新加坡节点, 美国节点, 其他节点, proxy, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
+static=全球加速, 自动选择, direct, 香港节点, 台湾节点, 日本节点, 韩国节点, 新加坡节点, 美国节点, 其他节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+static=广告拦截, 自动选择, 全球加速, direct, 香港节点, 台湾节点, 韩国节点, 日本节点, 新加坡节点, 美国节点, 其他节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Adblock.png
+static=苹果服务, direct, 香港节点, 台湾节点, 美国节点, 日本节点, 韩国节点, 新加坡节点, 其他节点, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+static=Spotify, 美国节点, direct, 台湾节点, 香港节点, 日本节点, 韩国节点, 新加坡节点, 其他节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Spotify.png
+static=AI 应用, 美国节点, direct, 台湾节点, 香港节点, 日本节点, 韩国节点, 新加坡节点, 其他节点, img-url=https://raw.githubusercontent.com/hwangzhun/Quantumult-X-Config/master/icon/AI.png
+static=国际媒体, 台湾节点, direct, 香港节点, 日本节点, 美国节点, 韩国节点, 新加坡节点, 其他节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png
+static=漏网之鱼, 自动选择, 全球加速, direct, 香港节点, 台湾节点, 韩国节点, 日本节点, 新加坡节点, 美国节点, 其他节点, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Final.png
 
 #默认设置15分钟测速一次，可自行修改check-interval=后面的数值（单位：秒），tolerance=后面的数值不建议修改
 #将下面的url-latency-benchmark的内容替换成static，并删除[check-interval=900, tolerance=0, ]即可手动选择节点
@@ -127,7 +129,7 @@ https://raw.githubusercontent.com/hwangzhun/Quantumult-X-Config/master/rule/AI.l
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Spotify/Spotify.list, tag=Spotify, force-policy=Spotify, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/ddgksf2013/Filter/master/Streaming.list, tag=国际媒体, force-policy=国际媒体, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Apple/Apple.list, tag=苹果服务, force-policy=苹果服务, update-interval=172800, opt-parser=true, enabled=true
-https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Proxy.list, tag=全球加速, force-policy=全球加速, update-interval=172800, opt-parser=true, enabled=true
+https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/airports.list, tag=全球加速, force-policy=全球加速, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list, tag=国内网站, force-policy=direct, update-interval=172800, opt-parser=true, enabled=true
 
 

@@ -30,11 +30,11 @@ jobs:
         > your-repo/rule/AII.list
 
         # 添加 OpenAI.list 的规则并换行
-        cat target-repo/rule/QuantumultX/OpenAI/OpenAI.list >> your-repo/rule/AII.list
+        cat target-repo/rule/QuantumultX/OpenAI/OpenAI.list >> your-repo/rule/AI.list
         echo "" >> your-repo/rule/AII.list
 
         # 添加 Gemini.list 的规则并换行
-        cat target-repo/rule/QuantumultX/Gemini/Gemini.list >> your-repo/rule/AII.list
+        cat target-repo/rule/QuantumultX/Gemini/Gemini.list >> your-repo/rule/AI.list
         echo "" >> your-repo/rule/AII.list
 
     # 提交并将更改推送到您的存储库
@@ -43,6 +43,6 @@ jobs:
         cd your-repo
         git config --global user.name "GitHub Action"
         git config --global user.email "Action@github.com"
-        git add rule/AII.list
+        git add rule/AI.list
         git commit -m "Update AII.list with latest rules"
-         git push https://x-access-token:${{ secrets.PAT }}@github.com/hwangzhun/Quantumult-X-Config.git
+        git push https://x-access-token:${{ secrets.PAT }}@github.com/hwangzhun/Quantumult-X-Config.git

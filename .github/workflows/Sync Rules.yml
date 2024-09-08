@@ -22,7 +22,7 @@ jobs:
       # Step 2: 克隆目标仓库的代码
       - name: Clone the target repository
         run: |
-          git clone https://github.com/blackmatrix7/ios_rule_script target_repo
+          git clone https://github.com/blackmatrix7/ios_rule_script.git target_repo
           cd target_repo
 
           # 合并目标文件

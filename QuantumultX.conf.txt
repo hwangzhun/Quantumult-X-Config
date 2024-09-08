@@ -108,6 +108,9 @@ https://raw.githubusercontent.com/gitbigg/dy/main/jd#delreg=.*&rename=@tg%40ddgk
 # > 魔法仅供临时使用2
 ;https://sub.sharecentre.online/sub#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
 
+#三月七
+https://sub.syq.tw/api/v1/client/subscribe?token=ead7c4d699c7d28fd6696cab852be745, tag=三月七, update-interval=3600, opt-parser=true, enabled=true
+
 
 
 [dns]

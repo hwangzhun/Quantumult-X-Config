@@ -44,5 +44,5 @@ jobs:
         git config --global user.name "GitHub Action"
         git config --global user.email "Action@github.com"
         git add rule/AI.list
-        git commit -m "Update AI.list with latest rules"
+        git commit -m "例行更新 AI.list"
         git push https://x-access-token:${{ secrets.PAT }}@github.com/hwangzhun/Quantumult-X-Config.git

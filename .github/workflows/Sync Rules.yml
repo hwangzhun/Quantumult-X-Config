@@ -1,53 +1,48 @@
-name: Sync Rules
+name: Sync Rules from External Repository
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 0 点 UTC 运行
-    
-  # 手动触发工作流，可以通过 GitHub UI 手动运行
-  workflow_dispatch:
-  push:
-    branches:
-      - master  # 监听 master 分支
+    - cron: '0 * * * *' # 每小时执行一次
+  workflow_dispatch: # 手动触发
 
 jobs:
-  sync-files:
+  sync:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: 检出你的仓库代码
-      - name: Checkout your repository
-        uses: actions/checkout@v2
+    # Checkout your own repository
+    - name: Checkout Your Repository
+      uses: actions/checkout@v3
+      with:
+        path: your-repo
 
-      # Step 2: 克隆目标仓库的代码
-      - name: Clone the target repository
-        run: |
-          git clone https://github.com/blackmatrix7/ios_rule_script.git target_repo
-          cd target_repo
+    # Checkout the target repository
+    - name: Checkout Target Repository
+      uses: actions/checkout@v3
+      with:
+        repository: blackmatrix7/ios_rule_script
+        path: target-repo
 
-          # 合并目标文件
-          cat rule/QuantumultX/OpenAI/OpenAI.list >> ../merged_rules.txt
-          echo "" >> ../merged_rules.txt
-          cat rule/QuantumultX/Gemini/Gemini.list >> ../merged_rules.txt
-          echo "" >> ../merged_rules.txt
+    # Merge rules from the target files to your file
+    - name: Merge Rules
+      run: |
+        # 创建一个空的规则文件
+        > your-repo/rule/AII.list
 
-      # Step 3: 将合并后的文件移动到目标路径
-      - name: Move merged rules to the target path
-        run: |
-          # 将合并后的规则文件移动到 'rule/AII.txt' 目标路径
-          mv ../merged_rules.txt ../rule/AII.txt
+        # 添加 OpenAI.list 的规则并换行
+        cat target-repo/rule/QuantumultX/OpenAI/OpenAI.list >> your-repo/rule/AII.list
+        echo "" >> your-repo/rule/AII.list
 
-      # Step 4: 提交和推送到 master 分支
-      - name: Commit and push changes
-        run: |
-          git config --global user.name 'GitHub Action'
-          git config --global user.email 'action@github.com'
+        # 添加 Gemini.list 的规则并换行
+        cat target-repo/rule/QuantumultX/Gemini/Gemini.list >> your-repo/rule/AII.list
+        echo "" >> your-repo/rule/AII.list
 
-          # 添加 'rule/AI.txt' 文件到暂存区
-          git add rule/AII.txt
-          
-          # 提交更改
-          git commit -m "Update AI.txt with rules from target repository"
-          
-          # 推送到 master 分支
-          git push origin master
+    # Commit and push the changes to your repository
+    - name: Commit and Push
+      run: |
+        cd your-repo
+        git config --global user.name "GitHub Action"
+        git config --global user.email "Action@github.com"
+        git add rule/AII.list
+        git commit -m "Update AII.list with latest rules"
+        git push

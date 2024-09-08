@@ -103,15 +103,8 @@ https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.re
 
 [server_remote]
 
-# > 魔法仅供临时使用1
-https://raw.githubusercontent.com/gitbigg/dy/main/jd#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
-# > 魔法仅供临时使用2
-;https://sub.sharecentre.online/sub#delreg=.*&rename=@tg%40ddgksf2021-+@num-$index7, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
-
-#三月七
-https://sub.syq.tw/api/v1/client/subscribe?token=ead7c4d699c7d28fd6696cab852be745, tag=三月七, update-interval=3600, opt-parser=true, enabled=true
-
-
+#测试节点
+https://mcdonaldnode.xyz/api/v1/client/subscribe?token=ac9adb31a8d15b7154eadd39727d4819, tag=🐟临时使用, update-interval=3600, opt-parser=true, enabled=true
 
 [dns]
 

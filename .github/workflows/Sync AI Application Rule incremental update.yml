@@ -1,0 +1,60 @@
+# name: Sync AI Application Rule incremental update
+name: 同步 AI.list 增量更新
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天 00:00 时执行一次
+  workflow_dispatch: # 手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout your own repository
+    - name: Checkout Your Repository
+      uses: actions/checkout@v3
+      with:
+        path: your-repo
+
+    # Checkout the target repository
+    - name: Checkout Target Repository
+      uses: actions/checkout@v3
+      with:
+        repository: blackmatrix7/ios_rule_script
+        path: target-repo
+
+    # 将目标文件中的规则合并到您的文件中并进行增量更新
+    - name: Incremental Merge Rules
+      run: |
+        # 确保规则文件存在
+        touch your-repo/rule/AI.list
+
+        # 创建一个临时文件来存放新规则
+        temp_file=$(mktemp)
+
+        # 处理 OpenAI.list 增量添加
+        grep -Fxvf your-repo/rule/AI.list target-repo/rule/QuantumultX/OpenAI/OpenAI.list >> $temp_file
+
+        # 处理 Gemini.list 增量添加
+        grep -Fxvf your-repo/rule/AI.list target-repo/rule/QuantumultX/Gemini/Gemini.list >> $temp_file
+
+        # 如果有新的规则，则追加到 AI.list
+        if [ -s $temp_file ]; then
+          cat $temp_file >> your-repo/rule/AI.list
+          echo "" >> your-repo/rule/AI.list
+        fi
+
+    # 提交并将更改推送到您的存储库（如果有更改）
+    - name: Commit and Push
+      run: |
+        cd your-repo
+        if [[ `git status --porcelain` ]]; then
+          git config --global user.name "GitHub Action"
+          git config --global user.email "Action@github.com"
+          git add rule/AI.list
+          git commit -m "例行增量更新 AI.list"
+          git push https://x-access-token:${{ secrets.PAT }}@github.com/hwangzhun/Quantumult-X-Config.git
+        else
+          echo "没有新规则，跳过提交。"
+        fi

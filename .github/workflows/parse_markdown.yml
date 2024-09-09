@@ -5,6 +5,8 @@ on:
     branches: [ main ]
   schedule:
     - cron: '0 12 * * *'  # 每天中午12点执行
+  workflow_dispatch: # 允许手动触发
+
 
 jobs:
   build:

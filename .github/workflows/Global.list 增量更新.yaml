@@ -1,85 +1,33 @@
-# name: Sync AI Application Rule incremental update
-name: Global.list 增量更新
+name: Update Global.list
 
-# 定义定时任务，每天凌晨2点运行（你可以根据需要调整时间）
 on:
-  schedule:
-    - cron: '5 0 * * *' # 每天凌晨 00:05 执行
-  workflow_dispatch: # 允许手动触发
+  workflow_dispatch: # 仅手动触发
 
 jobs:
-  sync-rules:
+  update-global-list:
     runs-on: ubuntu-latest
 
     steps:
-    # 第一步，拉取你的仓库代码
-    - name: Checkout My Repo
+    - name: 检查代码
       uses: actions/checkout@v3
+
+    - name: 设置 Python
+      uses: actions/setup-python@v4
       with:
-        repository: hwangzhun/Quantumult-X-Config
-        path: my-repo
+        python-version: '3.12.4'
 
-    # 第二步，拉取目标仓库的代码
-    - name: Checkout Target Repo
-      uses: actions/checkout@v3
-      with:
-        repository: blackmatrix7/ios_rule_script
-        path: target-repo
-
-    # 第三步，合并规则并增量更新到AI.list文件
-    - name: Append new rules
+    - name: 安装依赖
       run: |
-        # 目标文件路径
-        OPENAI_FILE="target-repo/rule/QuantumultX/OpenAI/OpenAI.list"
-        GEMINI_FILE="target-repo/rule/QuantumultX/Gemini/Gemini.list"
-        AI_FILE="my-repo/rule/AI.list"
-    
-        # 检查 AI.list 文件是否为空
-        if [ ! -s "$AI_FILE" ]; then
-          echo "AI.list is empty, directly adding rules"
-        else
-          # 如果最后一行不是空行，则添加换行符
-          if [ -n "$(tail -c 1 $AI_FILE)" ]; then
-            echo "Adding a newline before appending new rules"
-            echo "" >> $AI_FILE
-          fi
-        fi
-    
-        # 检查并追加 OpenAI 规则
-        if [ -f "$OPENAI_FILE" ]; then
-          echo "OpenAI.list file found, appending to AI.list"
-          echo -e "\n# OpenAI Rules\n$(cat $OPENAI_FILE)" >> $AI_FILE
-        fi
-    
-        # 检查并追加 Gemini 规则
-        if [ -f "$GEMINI_FILE" ]; then
-          echo "Gemini.list file found, appending to AI.list"
-          echo -e "\n# Gemini Rules\n$(cat $GEMINI_FILE)" >> $AI_FILE
-        fi
-    
-        # 如果 AI.list 的第一行是空行，则删除第一行
-        sed -i '1{/^$/d}' $AI_FILE
-  
+        python -m pip install --upgrade pip
+        pip install requests
 
-    # 第四步，将更新推送到你的仓库
-    - name: Commit and Push Changes
+    - name: 提取并更新 Global.list
+      run: python Rule\ Collection/rule\ data/extract_rules.py
+
+    - name: 提交更改
       run: |
-        cd my-repo
-        git config user.name "GitHub Action"
-        git config user.email "huangzhenmsn@hotmail.com"
-    
-        # 暂存当前更改
-        git stash
-    
-        # 拉取远程仓库的最新改动并自动处理冲突
-        git pull origin master --rebase
-    
-        # 恢复暂存的更改
-        git stash pop
-    
-        # 添加并提交新的规则
-        git add rule/AI.list
-        git commit -m "例行更新 AI.list"
-    
-        # 推送更改到远程仓库
-        git push origin master
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add rule/Global.list
+        git commit -m "更新 Global.list 文件"
+        git push

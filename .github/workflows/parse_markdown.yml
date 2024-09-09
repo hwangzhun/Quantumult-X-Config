@@ -29,14 +29,18 @@ jobs:
       - name: Run parse_markdown.py
         run: |
           python "Rule Collection/parse_markdown.py"  # 执行脚本
-
-      # 第五步：提交并推送生成的文件
+      
+      # 在推送之前先拉取最新代码并合并
+      - name: Pull latest changes from remote
+        run: |
+          git config --global user.name "Github Actions"
+          git config --global user.email "actions@github.com"
+          git pull origin master  # 拉取远程 master 分支的最新更改
+  
       - name: Commit and push changes
         run: |
-          git config --global user.name "Github Actions"  # 配置 Git 提交用户名
-          git config --global user.email "huangzhenmsn@hotmail.com"  # 配置 Git 提交邮箱
-          git add .  # 将所有更改添加到暂存区
-          git commit -m "Auto-generated files from markdown"  # 提交更改，带有提交信息
-          git push  # 推送更改到远程仓库
+          git add .
+          git commit -m "Auto-generated files from markdown"
+          git push origin master  # 推送更改到远程 master 分支
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的令牌，自动进行身份验证
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

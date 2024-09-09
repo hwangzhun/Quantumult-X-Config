@@ -1,0 +1,116 @@
+{
+    "Media": [
+        {
+            "name": "YouTube",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTube"
+        },
+        {
+            "name": "YouTubeMusic",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTubeMusic"
+        },
+        {
+            "name": "YouTubeMusic",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTubeMusic"
+        },
+        {
+            "name": "AppleMusic",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleMusic"
+        },
+        {
+            "name": "AppleTV",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleTV"
+        },
+        {
+            "name": "GlobalMedia",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia"
+        },
+        {
+            "name": "Spotify",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spotify"
+        },
+        {
+            "name": "BBC",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BBC"
+        },
+        {
+            "name": "AsianMedia",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia"
+        },
+        {
+            "name": "Bahamut",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bahamut"
+        },
+        {
+            "name": "TVB",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TVB"
+        },
+        {
+            "name": "BiliBili",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BiliBili"
+        },
+        {
+            "name": "CCTV",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CCTV"
+        },
+        {
+            "name": "腾讯",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Tencent"
+        },
+        {
+            "name": "ChinaMedia",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia"
+        },
+        {
+            "name": "网易云音乐",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NetEaseMusic"
+        },
+        {
+            "name": "网易云音乐",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NetEaseMusic"
+        },
+        {
+            "name": "腾讯视频",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TencentVideo"
+        },
+        {
+            "name": "爱奇艺",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iQIYI"
+        },
+        {
+            "name": "喜马拉雅",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Himalaya"
+        },
+        {
+            "name": "HBO(香港)",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HBOHK"
+        },
+        {
+            "name": "HBO(美国)",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HBOUSA"
+        },
+        {
+            "name": "HuluJP",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HuluJP"
+        },
+        {
+            "name": "HuluUSA",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HuluUSA"
+        },
+        {
+            "name": "抖音",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DouYin"
+        },
+        {
+            "name": "MOO音乐",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/MOOMusic"
+        },
+        {
+            "name": "IPTV其他",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/IPTVOther"
+        },
+        {
+            "name": "IPTV大陆",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/IPTVMainland"
+        }
+    ]
+}

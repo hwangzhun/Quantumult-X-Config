@@ -1,0 +1,1024 @@
+{
+    "Mainland": [
+        {
+            "name": "BiliBili",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BiliBili"
+        },
+        {
+            "name": "滴滴出行",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DiDi"
+        },
+        {
+            "name": "美图",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/MeiTu"
+        },
+        {
+            "name": "拼多多",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Pinduoduo"
+        },
+        {
+            "name": "新浪",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sina"
+        },
+        {
+            "name": "百度",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Baidu"
+        },
+        {
+            "name": "奇虎360",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/360"
+        },
+        {
+            "name": "4399",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/4399"
+        },
+        {
+            "name": "唯品会",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/VipShop"
+        },
+        {
+            "name": "小米",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/XiaoMi"
+        },
+        {
+            "name": "微博",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Weibo"
+        },
+        {
+            "name": "字节跳动",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ByteDance"
+        },
+        {
+            "name": "China",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China"
+        },
+        {
+            "name": "China",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China"
+        },
+        {
+            "name": "ChinaTest",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTest"
+        },
+        {
+            "name": "ChinaIPs",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaIPs"
+        },
+        {
+            "name": "CCTV",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CCTV"
+        },
+        {
+            "name": "迅雷",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Xunlei"
+        },
+        {
+            "name": "华为",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Huawei"
+        },
+        {
+            "name": "ChinaMedia",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia"
+        },
+        {
+            "name": "网易",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NetEase"
+        },
+        {
+            "name": "网易云音乐",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NetEaseMusic"
+        },
+        {
+            "name": "网易云音乐",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NetEaseMusic"
+        },
+        {
+            "name": "优酷",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Youku"
+        },
+        {
+            "name": "腾讯视频",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TencentVideo"
+        },
+        {
+            "name": "爱奇艺",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iQIYI"
+        },
+        {
+            "name": "斗鱼",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Douyu"
+        },
+        {
+            "name": "喜马拉雅",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Himalaya"
+        },
+        {
+            "name": "阿里巴巴",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Alibaba"
+        },
+        {
+            "name": "115",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/115"
+        },
+        {
+            "name": "12306",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/12306"
+        },
+        {
+            "name": "17173",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/17173"
+        },
+        {
+            "name": "178",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/178"
+        },
+        {
+            "name": "一起作业",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/17zuoye"
+        },
+        {
+            "name": "36氪",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/36kr"
+        },
+        {
+            "name": "前程无忧",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/51Job"
+        },
+        {
+            "name": "56网",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/56"
+        },
+        {
+            "name": "58同城",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/58TongCheng"
+        },
+        {
+            "name": "农业银行",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ABC"
+        },
+        {
+            "name": "声网",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Agora"
+        },
+        {
+            "name": "支付宝",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AliPay"
+        },
+        {
+            "name": "安天科技",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AnTianKeJi"
+        },
+        {
+            "name": "安居客",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Anjuke"
+        },
+        {
+            "name": "中国银行",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BOC"
+        },
+        {
+            "name": "交通银行",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BOCOM"
+        },
+        {
+            "name": "百分点",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BaiFenDian"
+        },
+        {
+            "name": "暴风影音",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BaoFengYingYin"
+        },
+        {
+            "name": "边锋网络",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BianFeng"
+        },
+        {
+            "name": "Bootcss",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bootcss"
+        },
+        {
+            "name": "中国科学院文献情报中心",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CAS"
+        },
+        {
+            "name": "建设银行",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CCB"
+        },
+        {
+            "name": "光大银行",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CEB"
+        },
+        {
+            "name": "广发银行",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CGB"
+        },
+        {
+            "name": "CIBN互联网电视",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CIBN"
+        },
+        {
+            "name": "创客匠人",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CKJR"
+        },
+        {
+            "name": "招商银行",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CMB"
+        },
+        {
+            "name": "中国知网",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CNKI"
+        },
+        {
+            "name": "中国互联网络信息中心",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CNNIC"
+        },
+        {
+            "name": "CSDN",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CSDN"
+        },
+        {
+            "name": "AcFun",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AcFun"
+        },
+        {
+            "name": "菜鸟裹裹",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CaiNiao"
+        },
+        {
+            "name": "财新传媒",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CaiXinChuanMei"
+        },
+        {
+            "name": "Camera360",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Camera360"
+        },
+        {
+            "name": "中国移动",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMobile"
+        },
+        {
+            "name": "中国新闻网",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaNews"
+        },
+        {
+            "name": "中国电信",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaTelecom"
+        },
+        {
+            "name": "中国联通",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaUnicom"
+        },
+        {
+            "name": "创客贴",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChuangKeTie"
+        },
+        {
+            "name": "纯游",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChunYou"
+        },
+        {
+            "name": "红马传媒(大麦网)",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DaMai"
+        },
+        {
+            "name": "蛋蛋赞",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DanDanZan"
+        },
+        {
+            "name": "弹弹Play",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Dandanplay"
+        },
+        {
+            "name": "当当",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DangDang"
+        },
+        {
+            "name": "得到",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Dedao"
+        },
+        {
+            "name": "深度科技",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Deepin"
+        },
+        {
+            "name": "第四范式",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DiSiFanShi"
+        },
+        {
+            "name": "点测网科",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DianCeWangKe"
+        },
+        {
+            "name": "钉钉",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DingTalk"
+        },
+        {
+            "name": "丁香园",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DingXiangYuan"
+        },
+        {
+            "name": "多盟",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Domob"
+        },
+        {
+            "name": "豆瓣",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DouBan"
+        },
+        {
+            "name": "东方财富",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/EastMoney"
+        },
+        {
+            "name": "饿了么",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Eleme"
+        },
+        {
+            "name": "饭否科技",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/FanFou"
+        },
+        {
+            "name": "飞猪",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/FeiZhu"
+        },
+        {
+            "name": "凤凰网",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/FengHuangWang"
+        },
+        {
+            "name": "凤侠网络",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/FengXiaWangLuo"
+        },
+        {
+            "name": "飞傲",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Fiio"
+        },
+        {
+            "name": "风行网",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Funshion"
+        },
+        {
+            "name": "六间房",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/6JianFang"
+        },
+        {
+            "name": "高德",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GaoDe"
+        },
+        {
+            "name": "硅谷动力",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GuiGuDongLi"
+        },
+        {
+            "name": "海南航空",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HaiNanHangKong"
+        },
+        {
+            "name": "汉仪",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HanYi"
+        },
+        {
+            "name": "盒马",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HeMa"
+        },
+        {
+            "name": "海贝音乐",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HibyMusic"
+        },
+        {
+            "name": "虎牙",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HuYa"
+        },
+        {
+            "name": "华数TV",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HuaShuTV"
+        },
+        {
+            "name": "欢聚时代",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HuanJu"
+        },
+        {
+            "name": "湖南TV",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HunanTV"
+        },
+        {
+            "name": "虎扑",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hupu"
+        },
+        {
+            "name": "中国工商银行",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ICBC"
+        },
+        {
+            "name": "极光推送",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/JiGuangTuiSong"
+        },
+        {
+            "name": "坚果云",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/JianGuoYun"
+        },
+        {
+            "name": "简书",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/JianShu"
+        },
+        {
+            "name": "晋江文学",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/JinJiangWenXue"
+        },
+        {
+            "name": "京东",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/JingDong"
+        },
+        {
+            "name": "掘金",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/JueJin"
+        },
+        {
+            "name": "Keep",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Keep"
+        },
+        {
+            "name": "金史密斯",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/KingSmith"
+        },
+        {
+            "name": "金山软件",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Kingsoft"
+        },
+        {
+            "name": "口袋时尚",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/KouDaiShiShang"
+        },
+        {
+            "name": "酷6",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Ku6"
+        },
+        {
+            "name": "库客音乐",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/KuKeMusic"
+        },
+        {
+            "name": "快递100",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/KuaiDi100"
+        },
+        {
+            "name": "快手",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/KuaiShou"
+        },
+        {
+            "name": "旷视",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/KuangShi"
+        },
+        {
+            "name": "酷狗/酷我",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/KugouKuwo"
+        },
+        {
+            "name": "蓝奏云",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/LanZouYun"
+        },
+        {
+            "name": "乐居",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/LeJu"
+        },
+        {
+            "name": "乐视",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/LeTV"
+        },
+        {
+            "name": "联想",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Lenovo"
+        },
+        {
+            "name": "鲁大师",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/LuDaShi"
+        },
+        {
+            "name": "绿米联创",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/LvMiLianChuang"
+        },
+        {
+            "name": "猫云",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Maocloud"
+        },
+        {
+            "name": "美团",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/MeiTuan"
+        },
+        {
+            "name": "魅族",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/MeiZu"
+        },
+        {
+            "name": "米物",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/MiWu"
+        },
+        {
+            "name": "咪咕",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Migu"
+        },
+        {
+            "name": "明略昭辉",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/MingLueZhaoHui"
+        },
+        {
+            "name": "蘑菇街",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Mogujie"
+        },
+        {
+            "name": "墨迹天气",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Mojitianqi"
+        },
+        {
+            "name": "新流云",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NGAA"
+        },
+        {
+            "name": "OPPO",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/OPPO"
+        },
+        {
+            "name": "OnePlus",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/OnePlus"
+        },
+        {
+            "name": "欧朋浏览器",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/OuPeng"
+        },
+        {
+            "name": "PPTV",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PPTV"
+        },
+        {
+            "name": "中国邮政储蓄银行",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PSBC"
+        },
+        {
+            "name": "平安",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PingAn"
+        },
+        {
+            "name": "七牛云",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/QiNiuYun"
+        },
+        {
+            "name": "青云QingCloud",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/QingCloud"
+        },
+        {
+            "name": "软媒",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/RuanMei"
+        },
+        {
+            "name": "顺丰速运",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SFExpress"
+        },
+        {
+            "name": "什么值得买",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SMZDM"
+        },
+        {
+            "name": "上海聚效",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ShangHaiJuXiao"
+        },
+        {
+            "name": "山灵音响",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Shanling"
+        },
+        {
+            "name": "神马",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ShenMa"
+        },
+        {
+            "name": "识农智能科技",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ShiNongZhiKe"
+        },
+        {
+            "name": "搜狐",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sohu"
+        },
+        {
+            "name": "搜房",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SouFang"
+        },
+        {
+            "name": "苏宁",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SuNing"
+        },
+        {
+            "name": "随视传媒",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SuiShiChuanMei"
+        },
+        {
+            "name": "TCL",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TCL"
+        },
+        {
+            "name": "泰康",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TaiKang"
+        },
+        {
+            "name": "太合音乐",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TaiheMusic"
+        },
+        {
+            "name": "Teambition",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Teambition"
+        },
+        {
+            "name": "天天看看",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TianTianKanKan"
+        },
+        {
+            "name": "天威诚信",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TianWeiChengXin"
+        },
+        {
+            "name": "天涯社区",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TianYaForum"
+        },
+        {
+            "name": "老虎证券",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TigerFintech"
+        },
+        {
+            "name": "同程",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TongCheng"
+        },
+        {
+            "name": "有妖气",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/U17"
+        },
+        {
+            "name": "UC",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/UC"
+        },
+        {
+            "name": "优刻得",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/UCloud"
+        },
+        {
+            "name": "又拍云",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/UPYun"
+        },
+        {
+            "name": "中国银联",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/UnionPay"
+        },
+        {
+            "name": "凡客",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Vancl"
+        },
+        {
+            "name": "Vivo",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Vivo"
+        },
+        {
+            "name": "完美世界",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WanMeiShiJie"
+        },
+        {
+            "name": "网宿科技",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WangSuKeJi"
+        },
+        {
+            "name": "网心科技",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WangXinKeJi"
+        },
+        {
+            "name": "问卷星",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WenJuanXing"
+        },
+        {
+            "name": "WiFi万能钥匙",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WiFiMaster"
+        },
+        {
+            "name": "虾米音乐",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/XiamiMusic"
+        },
+        {
+            "name": "闲鱼",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/XianYu"
+        },
+        {
+            "name": "小狗科技",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/XiaoGouKeJi"
+        },
+        {
+            "name": "小源科技",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/XiaoYuanKeJi"
+        },
+        {
+            "name": "携程",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/XieCheng"
+        },
+        {
+            "name": "学而思",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/XueErSi"
+        },
+        {
+            "name": "雪球",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/XueQiu"
+        },
+        {
+            "name": "人人影视",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YYeTs"
+        },
+        {
+            "name": "易车",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YiChe"
+        },
+        {
+            "name": "一下科技",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YiXiaKeJi"
+        },
+        {
+            "name": "易直播",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YiZhiBo"
+        },
+        {
+            "name": "游梦创想",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouMengChuangXiang"
+        },
+        {
+            "name": "有赞",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouZan"
+        },
+        {
+            "name": "猿辅导",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YuanFuDao"
+        },
+        {
+            "name": "云帆加速",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YunFanJiaSu"
+        },
+        {
+            "name": "国家工程研究中心",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ZDNS"
+        },
+        {
+            "name": "掌阅",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ZhangYue"
+        },
+        {
+            "name": "智云众",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ZhiYunZhong"
+        },
+        {
+            "name": "中国石化",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ZhongGuoShiHua"
+        },
+        {
+            "name": "中维世纪",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ZhongWeiShiJi"
+        },
+        {
+            "name": "中元易尚",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ZhongYuanYiShang"
+        },
+        {
+            "name": "转转",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ZhuanZhuan"
+        },
+        {
+            "name": "乐播投屏",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hpplay"
+        },
+        {
+            "name": "科大讯飞",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iFlytek"
+        },
+        {
+            "name": "爱范儿",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ifanr"
+        },
+        {
+            "name": "白山耘科技",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BaiShanYunKeJi"
+        },
+        {
+            "name": "帝联网络",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DiLianWangLuo"
+        },
+        {
+            "name": "脸萌",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/LianMeng"
+        },
+        {
+            "name": "微至云动",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WeiZhiYunDong"
+        },
+        {
+            "name": "8btc",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/8btc"
+        },
+        {
+            "name": "ChinaIPsBGP",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaIPsBGP"
+        },
+        {
+            "name": "城通网盘",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChengTongWangPan"
+        },
+        {
+            "name": "国内网站/IP合集",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMax"
+        },
+        {
+            "name": "多玩",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DuoWan"
+        },
+        {
+            "name": "玩咖欢聚",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WanKaHuanJu"
+        },
+        {
+            "name": "知音漫客",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ZhiYinManKe"
+        },
+        {
+            "name": "ChinaNoMedia",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaNoMedia"
+        },
+        {
+            "name": "微信",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WeChat"
+        },
+        {
+            "name": "微信",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WeChat"
+        },
+        {
+            "name": "世纪超星",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ShiJiChaoXing"
+        },
+        {
+            "name": "ChinaIPsTest",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaIPs/ChinaIPsTest"
+        },
+        {
+            "name": "QuickConnect",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/QuickConnect"
+        },
+        {
+            "name": "我来",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WoLai"
+        },
+        {
+            "name": "知乎",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Zhihu"
+        },
+        {
+            "name": "NGA",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NGA"
+        },
+        {
+            "name": "抖音",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DouYin"
+        },
+        {
+            "name": "小红书",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/XiaoHongShu"
+        },
+        {
+            "name": "GovernmentCN",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GovCN"
+        },
+        {
+            "name": "MOO音乐",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/MOOMusic"
+        },
+        {
+            "name": "思杰马克丁软件",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Marketing"
+        },
+        {
+            "name": "TapTap",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TapTap"
+        },
+        {
+            "name": "中兴通讯",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ZhongXingTongXun"
+        },
+        {
+            "name": "吉利",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Geely"
+        },
+        {
+            "name": "国内域名合集",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMaxNoIP"
+        },
+        {
+            "name": "百度贴吧",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BaiDuTieBa"
+        },
+        {
+            "name": "ChinaASN",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaASN"
+        },
+        {
+            "name": "方正电子",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/FangZhengDianZi"
+        },
+        {
+            "name": "良品铺子",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BeStore"
+        },
+        {
+            "name": "ChinaMaxNoMedia",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMaxNoMedia"
+        },
+        {
+            "name": "战旗",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/zhanqi"
+        },
+        {
+            "name": "Wteam",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wteam"
+        },
+        {
+            "name": "Gitee",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Gitee"
+        },
+        {
+            "name": "Wanfang",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Wanfang"
+        },
+        {
+            "name": "W3schools",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/W3schools"
+        },
+        {
+            "name": "Picacg",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Picacg"
+        },
+        {
+            "name": "XingKongWuXian",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/XingKongWuXian"
+        },
+        {
+            "name": "Qyyjt",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Qyyjt"
+        },
+        {
+            "name": "Coolapk",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Coolapk"
+        },
+        {
+            "name": "3dm",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/3dm"
+        },
+        {
+            "name": "3Type",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/3Type"
+        },
+        {
+            "name": "4Paradigm",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/4Paradigm"
+        },
+        {
+            "name": "BesTV",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BesTV"
+        },
+        {
+            "name": "中国教育电视台",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/CETV"
+        },
+        {
+            "name": "SMG",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SMG"
+        },
+        {
+            "name": "爱企查",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AiQiCha"
+        },
+        {
+            "name": "中国国航",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AirChina"
+        },
+        {
+            "name": "aiXcoder",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/aiXcoder"
+        },
+        {
+            "name": "游侠网",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Ali213"
+        },
+        {
+            "name": "安兔兔",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Antutu"
+        },
+        {
+            "name": "Apifox",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apifox"
+        },
+        {
+            "name": "AmazonCN",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AmazonCN"
+        },
+        {
+            "name": "Stripe",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Stripe"
+        }
+    ]
+}

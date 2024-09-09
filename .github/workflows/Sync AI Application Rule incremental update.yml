@@ -51,5 +51,5 @@ jobs:
         git config user.name "YourGitHubUsername"
         git config user.email "YourEmail@example.com"
         git add rule/AI.list
-        git commit -m "Update AI.list with new rules"
+        git commit -m "例行更新"
         git push

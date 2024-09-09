@@ -1,0 +1,88 @@
+{
+    "Apple": [
+        {
+            "name": "AppStore",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppStore"
+        },
+        {
+            "name": "iCloud",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iCloud"
+        },
+        {
+            "name": "TestFlight",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TestFlight"
+        },
+        {
+            "name": "FitnessPlus",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/FitnessPlus"
+        },
+        {
+            "name": "AppleMail",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleMail"
+        },
+        {
+            "name": "AppleMusic",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleMusic"
+        },
+        {
+            "name": "AppleNews",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleNews"
+        },
+        {
+            "name": "AppleTV",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleTV"
+        },
+        {
+            "name": "iOS系统升级",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SystemOTA"
+        },
+        {
+            "name": "Siri",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Siri"
+        },
+        {
+            "name": "查找",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/FindMy"
+        },
+        {
+            "name": "Apple",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple"
+        },
+        {
+            "name": "AppleProxy",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleProxy"
+        },
+        {
+            "name": "AppleProxy",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleProxy"
+        },
+        {
+            "name": "iCloudPrivateRelay",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iCloudPrivateRelay"
+        },
+        {
+            "name": "AppleDev",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleDev"
+        },
+        {
+            "name": "AppleFirmware",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleFirmware"
+        },
+        {
+            "name": "AppleHardware",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleHardware"
+        },
+        {
+            "name": "AppleMedia",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleMedia"
+        },
+        {
+            "name": "Beats",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Beats"
+        },
+        {
+            "name": "AppleID",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleID"
+        }
+    ]
+}

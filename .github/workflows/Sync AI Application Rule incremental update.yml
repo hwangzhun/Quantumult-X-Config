@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # 允许手动触发
 
 jobs:
-  同步规则:
+  sync-rules:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Your Repository
@@ -23,7 +23,7 @@ jobs:
         path: 'target_repo'
         token: ${{ secrets.PAT }} # 需要设置一个PAT（Personal Access Token）
 
-    - name: 同步规则
+    - name: sync-rules
       run: |
         # 检查OpenAI规则文件是否有更新
         OPENAI_DIFF=$(git diff --name-only HEAD^ HEAD -- source_repo/rule/QuantumultX/OpenAI/OpenAI.list)

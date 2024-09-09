@@ -22,7 +22,7 @@ jobs:
         pip install requests
 
     - name: 提取并更新 Global.list
-      run: python Rule\ Collection/rule\ data/extract_global.py
+      run: python "Rule Collection/rule data/extract_global.py"
 
 
     - name: 提交更改

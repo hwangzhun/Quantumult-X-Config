@@ -1,4 +1,5 @@
-name: Sync Rules
+# name: Sync AI Application Rule incremental update
+name: AI.list 增量更新
 
 # 定义定时任务，每天凌晨2点运行（你可以根据需要调整时间）
 on:

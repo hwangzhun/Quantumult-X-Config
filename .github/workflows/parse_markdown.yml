@@ -1,23 +1,42 @@
-name: Parse Markdown to JSON
+name: Parse Markdown and Generate Files
 
+# 定义何时触发工作流
 on:
-  push:
-    branches: [ main ]
-  schedule:
-    - cron: '0 12 * * *'  # 每天中午12点执行
-  workflow_dispatch: # 允许手动触发
-
+  workflow_dispatch:  # 允许通过 GitHub 页面手动触发工作流
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+  run-script:
+    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 运行环境
+
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.10'  # 指定 Python 版本
-    - name: Install dependencies
-      run: pip install requests
-    - name: Parse Markdown
-      run: python parse_markdown.py
+      # 第一步：从仓库中检出最新代码
+      - name: Checkout repository
+        uses: actions/checkout@v3  # 使用官方的 checkout action，将代码克隆到运行器
+
+      # 第二步：设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v4  # 使用官方的 Python 设置 action
+        with:
+          python-version: '3.10'  # 选择合适的 Python 版本 (可以是 3.7, 3.8, 3.9, 3.10 等)
+
+      # 第三步：安装 requests 模块（因为 requests 不是 Python 标准库的一部分）
+      - name: Install requests
+        run: |
+          python -m pip install --upgrade pip  # 更新 pip 包管理器
+          pip install requests  # 安装 requests 模块
+
+      # 第四步：运行 parse_markdown.py 脚本
+      - name: Run parse_markdown.py
+        run: |
+          python "Rule Collection/parse_markdown.py"  # 执行脚本
+
+      # 第五步：提交并推送生成的文件
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "Github Actions"  # 配置 Git 提交用户名
+          git config --global user.email "huangzhenmsn@hotmail.com"  # 配置 Git 提交邮箱
+          git add .  # 将所有更改添加到暂存区
+          git commit -m "Auto-generated files from markdown"  # 提交更改，带有提交信息
+          git push  # 推送更改到远程仓库
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用 GitHub 提供的令牌，自动进行身份验证

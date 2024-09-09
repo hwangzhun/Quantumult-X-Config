@@ -39,11 +39,11 @@ jobs:
 
         # 处理 Gemini.list 增量添加，并添加一个换行符
         grep -Fxvf your-repo/rule/AI.list target-repo/rule/QuantumultX/Gemini/Gemini.list >> $temp_file
-        echo "" >> $temp_file
 
         # 如果有新的规则，则追加到 AI.list
         if [ -s $temp_file ]; then
           cat $temp_file >> your-repo/rule/AI.list
+          echo "" >> your-repo/rule/AI.list
         fi
 
     # 提交并将更改推送到您的存储库（如果有更改）

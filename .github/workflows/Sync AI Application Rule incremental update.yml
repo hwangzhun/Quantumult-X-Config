@@ -1,58 +1,55 @@
-name: Sync AI Application Rule 1
+name: Sync Rules
 
+# 定义定时任务，每天凌晨2点运行（你可以根据需要调整时间）
 on:
   schedule:
-    - cron:  '0 0 * * *' # 每小时执行一次
+    - cron: '0 0 * * *' # 每天凌晨2点
   workflow_dispatch: # 允许手动触发
 
 jobs:
   sync-rules:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout Your Repository
-      uses: actions/checkout@v2
+    # 第一步，拉取你的仓库代码
+    - name: Checkout My Repo
+      uses: actions/checkout@v3
       with:
-        repository: 'blackmatrix7/ios_rule_script'
-        path: 'source_repo'
-        fetch-depth: 0 # 获取所有历史记录以比较
+        repository: hwangzhun/Quantumult-X-Config
+        path: my-repo
 
-    - name: Checkout the target repository
-      uses: actions/checkout@v2
+    # 第二步，拉取目标仓库的代码
+    - name: Checkout Target Repo
+      uses: actions/checkout@v3
       with:
-        repository: 'hwangzhun/Quantumult-X-Config'
-        path: 'target_repo'
-        token: ${{ secrets.PAT }} # 需要设置一个PAT（Personal Access Token）
+        repository: blackmatrix7/ios_rule_script
+        path: target-repo
 
-    - name: sync-rules
+    # 第三步，合并规则并增量更新到AI.list文件
+    - name: Append new rules
       run: |
-        # 检查OpenAI规则文件是否有更新
-        OPENAI_DIFF=$(git diff --name-only HEAD^ HEAD -- source_repo/rule/QuantumultX/OpenAI/OpenAI.list)
-        if [ "$OPENAI_DIFF" != "" ]; then
-          cp source_repo/rule/QuantumultX/OpenAI/OpenAI.list target_repo/rule/AI.list
-          echo "OpenAI规则已更新。"
+        # 目标文件路径
+        OPENAI_FILE="target-repo/rule/QuantumultX/OpenAI/OpenAI.list"
+        GEMINI_FILE="target-repo/rule/QuantumultX/Gemini/Gemini.list"
+        AI_FILE="my-repo/rule/AI.list"
+
+        # 检查目标文件是否存在
+        if [ -f "$OPENAI_FILE" ]; then
+          echo "OpenAI.list file found, appending to AI.list"
+          echo -e "\n# OpenAI Rules\n$(cat $OPENAI_FILE)" >> $AI_FILE
         fi
 
-        # 检查Gemini规则文件是否有更新
-        GEMINI_DIFF=$(git diff --name-only HEAD^ HEAD -- source_repo/rule/QuantumultX/Gemini/Gemini.list)
-        if [ "$GEMINI_DIFF" != "" ]; then
-          cat source_repo/rule/QuantumultX/Gemini/Gemini.list >> target_repo/rule/AI.list
-          echo "Gemini规则已更新。"
+        if [ -f "$GEMINI_FILE" ]; then
+          echo "Gemini.list file found, appending to AI.list"
+          echo -e "\n# Gemini Rules\n$(cat $GEMINI_FILE)" >> $AI_FILE
         fi
 
-        # 检查AI.list文件是否有更新
-        if [ -n "$(git diff --name-only target_repo/rule/AI.list)" ]; then
-          echo "AI.list有更新，准备提交更改。"
-        else
-          echo "AI.list没有更新，跳过提交。"
-          exit 0
-        fi
-
-    - name: 提交和推送
-      if: success() && github.event_name != 'pull_request'
+    # 第四步，将更新推送到你的仓库
+    - name: Commit and Push Changes
       run: |
-        cd target_repo
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        cd my-repo
+        git config user.name "YourGitHubUsername"
+        git config user.email "YourEmail@example.com"
         git add rule/AI.list
-        git commit -m "从源仓库同步规则" || echo "没有需要提交的更改"
-        git push 
+        git commit -m "Update AI.list with new rules"
+        git push

@@ -22,13 +22,13 @@ jobs:
         pip install requests
 
     - name: 提取并更新 Global.list
-      run: python "Quantumult-X-Config/Rule Collection/extract_global.py"
+      run: python "Rule Collection/extract_global.py"
 
 
     - name: 提交更改
       run: |
-        git config --local user.name "github-actions[bot]"
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "Github Actions"
+        git config --global user.email "actions@github.com"
         git add rule/Global.list
         git commit -m "更新 Global.list 文件"
         git push

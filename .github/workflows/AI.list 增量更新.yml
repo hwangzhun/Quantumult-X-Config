@@ -33,30 +33,33 @@ jobs:
         OPENAI_FILE="target-repo/rule/QuantumultX/OpenAI/OpenAI.list"
         GEMINI_FILE="target-repo/rule/QuantumultX/Gemini/Gemini.list"
         AI_FILE="my-repo/rule/AI.list"
-    
-        # 检查 AI.list 是否为空
+
+        # 移除 AI.list 文件中的所有尾部空行
+        sed -i '/^$/d' $AI_FILE
+
+        # 再次检查文件是否为空
         if [ ! -s "$AI_FILE" ]; then
           echo "AI.list is empty, adding rules without a preceding newline"
         else
-          # 检查 AI.list 文件的最后一行是否为空，若不为空则添加换行符
+          # 如果最后一行不是空行，则添加换行符
           if [ -n "$(tail -n 1 $AI_FILE)" ]; then
             echo "Adding a newline before appending new rules"
             echo "" >> $AI_FILE
           fi
         fi
-    
+
         # 检查并追加 OpenAI 规则
         if [ -f "$OPENAI_FILE" ]; then
           echo "OpenAI.list file found, appending to AI.list"
           echo -e "\n# OpenAI Rules\n$(cat $OPENAI_FILE)" >> $AI_FILE
         fi
-    
+
         # 检查并追加 Gemini 规则
         if [ -f "$GEMINI_FILE" ]; then
           echo "Gemini.list file found, appending to AI.list"
           echo -e "\n# Gemini Rules\n$(cat $GEMINI_FILE)" >> $AI_FILE
         fi
-
+        
     # 第四步，将更新推送到你的仓库
     - name: Commit and Push Changes
       run: |

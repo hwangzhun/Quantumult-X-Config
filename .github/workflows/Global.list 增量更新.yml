@@ -25,7 +25,7 @@ jobs:
         pip install requests
 
     - name: 提取并更新 Global.list
-      run: python "Rule Collection/extract_global.py"
+      run: python "Quantumult-X-Config/Rule Collection/extract_global.py"
 
 
     - name: 提交更改

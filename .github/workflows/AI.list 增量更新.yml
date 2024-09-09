@@ -34,15 +34,12 @@ jobs:
         GEMINI_FILE="target-repo/rule/QuantumultX/Gemini/Gemini.list"
         AI_FILE="my-repo/rule/AI.list"
 
-        # 移除 AI.list 文件中的所有尾部空行
-        sed -i '/^$/d' $AI_FILE
-
-        # 再次检查文件是否为空
+        # 检查 AI.list 文件是否为空
         if [ ! -s "$AI_FILE" ]; then
-          echo "AI.list is empty, adding rules without a preceding newline"
+          echo "AI.list is empty, directly adding rules"
         else
           # 如果最后一行不是空行，则添加换行符
-          if [ -n "$(tail -n 1 $AI_FILE)" ]; then
+          if [ -n "$(tail -c 1 $AI_FILE)" ]; then
             echo "Adding a newline before appending new rules"
             echo "" >> $AI_FILE
           fi
@@ -59,7 +56,7 @@ jobs:
           echo "Gemini.list file found, appending to AI.list"
           echo -e "\n# Gemini Rules\n$(cat $GEMINI_FILE)" >> $AI_FILE
         fi
-        
+
     # 第四步，将更新推送到你的仓库
     - name: Commit and Push Changes
       run: |

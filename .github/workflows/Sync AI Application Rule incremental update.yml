@@ -26,9 +26,6 @@ jobs:
     # Incremental merge rules from the target files to your file, with line separation
     - name: Incremental Merge Rules
       run: |
-        # 确保规则文件存在
-        touch your-repo/rule/AI.list
-
         # 创建一个临时文件来存放新规则
         temp_file=$(mktemp)
 
@@ -41,8 +38,9 @@ jobs:
         # 处理 Gemini.list 增量添加并换行
         grep -Fxvf your-repo/rule/AI.list target-repo/rule/QuantumultX/Gemini/Gemini.list >> $temp_file
 
-        # 如果有新的规则，则追加到 AI.list 并在最后插入一个换行
+        # 如果有新的规则，才追加到 AI.list
         if [ -s $temp_file ]; then
+          # 将新规则追加到已有的 AI.list 文件中，而不是覆盖
           cat $temp_file >> your-repo/rule/AI.list
           echo "" >> your-repo/rule/AI.list
         fi
@@ -63,3 +61,4 @@ jobs:
 
         # 推送更改
         git push https://x-access-token:${{ secrets.PAT }}@github.com/hwangzhun/Quantumult-X-Config.git
+

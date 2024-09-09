@@ -1,0 +1,160 @@
+{
+    "Game": [
+        {
+            "name": "游戏",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game"
+        },
+        {
+            "name": "暴雪娱乐",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Blizzard"
+        },
+        {
+            "name": "Steam",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Steam"
+        },
+        {
+            "name": "Steam",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Steam"
+        },
+        {
+            "name": "Rockstar",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Rockstar"
+        },
+        {
+            "name": "PlayStation",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PlayStation"
+        },
+        {
+            "name": "Epic",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Epic"
+        },
+        {
+            "name": "SteamCN",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/SteamCN"
+        },
+        {
+            "name": "WildRift",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WildRift"
+        },
+        {
+            "name": "Supercell",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Supercell"
+        },
+        {
+            "name": "EA",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/EA"
+        },
+        {
+            "name": "Garena",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Garena"
+        },
+        {
+            "name": "Gog",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Gog"
+        },
+        {
+            "name": "Nintendo",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Nintendo"
+        },
+        {
+            "name": "OP",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/OP"
+        },
+        {
+            "name": "Purikonejp",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Purikonejp"
+        },
+        {
+            "name": "Riot",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Riot"
+        },
+        {
+            "name": "UBI",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/UBI"
+        },
+        {
+            "name": "Xbox",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Xbox"
+        },
+        {
+            "name": "Sony",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Sony"
+        },
+        {
+            "name": "Battle",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Battle"
+        },
+        {
+            "name": "Classic",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Classic"
+        },
+        {
+            "name": "DiabloIII",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DiabloIII"
+        },
+        {
+            "name": "Hearthstone",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hearthstone"
+        },
+        {
+            "name": "HeroesoftheStorm",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HeroesoftheStorm"
+        },
+        {
+            "name": "Overwatch",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Overwatch"
+        },
+        {
+            "name": "StarCraftII",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/StarCraftII"
+        },
+        {
+            "name": "WorldofWarcraft",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WorldofWarcraft"
+        },
+        {
+            "name": "Origin",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Origin"
+        },
+        {
+            "name": "雀魂",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Majsoul"
+        },
+        {
+            "name": "米哈游HoYoverse",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/HoYoverse"
+        },
+        {
+            "name": "NGA",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NGA"
+        },
+        {
+            "name": "GameDownload",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/GameDownload"
+        },
+        {
+            "name": "腾讯英雄联盟手游",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/TencentLoLMobile"
+        },
+        {
+            "name": "Roblox",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Roblox"
+        },
+        {
+            "name": "GameDownloadCN",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/GameDownloadCN"
+        },
+        {
+            "name": "Ubisoft",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Ubisoft"
+        },
+        {
+            "name": "2KGames",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/2KGames"
+        },
+        {
+            "name": "胜利女神",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game/Nikke"
+        }
+    ]
+}

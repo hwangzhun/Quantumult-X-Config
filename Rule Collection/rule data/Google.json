@@ -1,0 +1,60 @@
+{
+    "Google": [
+        {
+            "name": "Google",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google"
+        },
+        {
+            "name": "GoogleDrive",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GoogleDrive"
+        },
+        {
+            "name": "GoogleDrive",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GoogleDrive"
+        },
+        {
+            "name": "YouTubeMusic",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTubeMusic"
+        },
+        {
+            "name": "YouTubeMusic",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/YouTubeMusic"
+        },
+        {
+            "name": "GoogleSearch",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GoogleSearch"
+        },
+        {
+            "name": "GoogleSearch",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GoogleSearch"
+        },
+        {
+            "name": "GoogleVoice",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GoogleVoice"
+        },
+        {
+            "name": "GoogleVoice",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GoogleVoice"
+        },
+        {
+            "name": "Chromecast",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Chromecast"
+        },
+        {
+            "name": "Chromecast",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Chromecast"
+        },
+        {
+            "name": "谷歌推送",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GoogleFCM"
+        },
+        {
+            "name": "BardAI",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BardAI"
+        },
+        {
+            "name": "Gemini",
+            "link": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Gemini"
+        }
+    ]
+}

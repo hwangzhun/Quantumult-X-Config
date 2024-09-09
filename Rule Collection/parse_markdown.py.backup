@@ -1,0 +1,45 @@
+import re
+import json
+import requests
+
+# 假设你有一个在线链接来获取 markdown 文件
+url = 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/README.md'
+
+# 获取文件内容
+response = requests.get(url)
+markdown_content = response.text
+
+# 用换行分割 Markdown 文件内容，得到每个部分
+sections = markdown_content.split('\n\n')  # 双换行表示不同的类型
+
+# 遍历每个部分，提取标题和链接，并生成 JSON 文件
+for i, section in enumerate(sections):
+    if not section.strip():
+        continue  # 跳过空白部分
+    
+    # 提取第一个英文单词作为文件名，忽略 emoji 和特殊字符
+    title_match = re.search(r'\b[A-Za-z]+\b', section)
+    if title_match:
+        title = title_match.group(0).strip()  # 使用第一个英文单词作为文件名
+    else:
+        # 如果没有找到英文单词，使用默认名称
+        title = f"Untitled_{i}"
+    
+    # 提取链接和链接名称
+    links = re.findall(r'\[([^\]]+)\]\((https[^\)]+)\)', section)
+    
+    # 如果当前部分没有链接，跳过生成文件
+    if not links:
+        continue
+
+    # 准备 JSON 数据
+    data = {title: [{"name": name, "link": url} for name, url in links]}
+    
+    # 将标题中的空格、特殊符号替换掉，生成合法的文件名
+    json_filename = f"{re.sub(r'[\\/*?:"<>|]', '_', title)}.json"
+    
+    # 保存为 JSON 文件
+    with open(json_filename, 'w', encoding='utf-8') as json_file:
+        json.dump(data, json_file, ensure_ascii=False, indent=4)
+
+    print(f"生成了文件: {json_filename}")

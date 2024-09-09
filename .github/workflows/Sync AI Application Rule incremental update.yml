@@ -33,6 +33,9 @@ jobs:
         GEMINI_FILE="target-repo/rule/QuantumultX/Gemini/Gemini.list"
         AI_FILE="my-repo/rule/AI.list"
 
+        # 在追加新规则前，确保文件末尾添加换行符
+        echo "" >> $AI_FILE
+
         # 检查目标文件是否存在
         if [ -f "$OPENAI_FILE" ]; then
           echo "OpenAI.list file found, appending to AI.list"
@@ -49,7 +52,7 @@ jobs:
       run: |
         cd my-repo
         git config user.name "GitHub Action"
-        git config user.email "Action@github.com"
+        git config user.email "huangzhenmsn@hotmail.com"
     
         # 暂存当前更改
         git stash

@@ -48,8 +48,14 @@ jobs:
     - name: Commit and Push Changes
       run: |
         cd my-repo
-        git config user.name "YourGitHubUsername"
-        git config user.email "YourEmail@example.com"
+        git config user.name "GitHub Action"
+        git config user.email "huangzhenmsn@hotmail.com"
+
+        # 在推送前拉取远程的最新改动并合并
+        git pull origin master --rebase
+
+        # 添加和提交新规则
         git add rule/AI.list
         git commit -m "例行更新"
-        git push
+
+        git push origin master

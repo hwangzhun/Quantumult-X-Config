@@ -1,0 +1,98 @@
+[
+    {
+        "text": "Developer",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Developer"
+    },
+    {
+        "text": "Scholar",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Scholar"
+    },
+    {
+        "text": "Download",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Download"
+    },
+    {
+        "text": "本地局域网地址",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Lan"
+    },
+    {
+        "text": "PT下载",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PrivateTracker"
+    },
+    {
+        "text": "AdGuardS DNS Filter Direct",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdGuardSDNSFilter/Direct"
+    },
+    {
+        "text": "DNS",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DNS"
+    },
+    {
+        "text": "NTPService",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NTPService"
+    },
+    {
+        "text": "360云计算",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloud/360Cloud"
+    },
+    {
+        "text": "百度云计算",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloud/BaiduCloud"
+    },
+    {
+        "text": "华为云计算",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloud/HuaweiCloud"
+    },
+    {
+        "text": "京东云计算",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloud/JingDongCloud"
+    },
+    {
+        "text": "金山云计算",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloud/KingsoftCloud"
+    },
+    {
+        "text": "网易云计算",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloud/NeteaseCloud"
+    },
+    {
+        "text": "腾讯云计算",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloud/TencentCloud"
+    },
+    {
+        "text": "HiNet",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloud/HiNet"
+    },
+    {
+        "text": "国内云计算",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloud/CloudCN"
+    },
+    {
+        "text": "全球云计算",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloud/CloudGlobal"
+    },
+    {
+        "text": "AmazonCloud",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloud/AmazonCloud"
+    },
+    {
+        "text": "AkamaiCloud",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloud/AkamaiCloud"
+    },
+    {
+        "text": "Linux",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Linux"
+    },
+    {
+        "text": "Atomdata",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Atomdata"
+    },
+    {
+        "text": "STUN",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/STUN"
+    },
+    {
+        "text": "微信输入法",
+        "url": "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WeType"
+    }
+]

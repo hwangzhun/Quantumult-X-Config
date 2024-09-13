@@ -12,6 +12,9 @@ jobs:
       # 第一步：从仓库中检出最新代码
       - name: Checkout repository
         uses: actions/checkout@v3  # 使用官方的 checkout action，将代码克隆到运行器
+        with:
+          repository: hwangzhun/split-config
+          path: my-repo
 
       # 第二步：设置 Python 环境
       - name: Set up Python
